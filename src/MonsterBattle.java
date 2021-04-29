@@ -25,7 +25,7 @@ import java.io.PrintWriter;
 				if (answer == 1)
 				{
 					// Default battle (Giant vs Ogre)
-					Monster Giant = new Monster("Giant", 200.0, 25.0, 1);
+					Monster Giant = new Monster("Shrek", 200.0, 25.0, 1);
 					Monster Ogre = new Monster("Ogre", 100.0, 50.0, 3);
 				// A loop to check if both monster are alive to continue the battle for another round
 					while (Ogre.isAlive() && Giant.isAlive())
