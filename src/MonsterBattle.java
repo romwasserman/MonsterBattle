@@ -18,7 +18,6 @@ import java.io.PrintWriter;
 		
 		public static void main(String [] args)
 		{
-			System.out.println("Hello\nworld");
 			while (battleFought == false) {
 				// Asks the user which battle they would like to run
 				System.out.println("Which battle would you like to run? press 1 for a default battle, press 2 for a custom battle, or press 3 to create your monster.");
